@@ -1,0 +1,19 @@
+<!-- Create a cart and buttons to calculate number of quantities in a cart. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>createCart</title>
+ </head>
+ <body>
+  <button onclick=" console.log(`Cart Quantity: ${cartQuantity}`);">show Cart Quantity</button>
+  <button onclick=" cartQuantity = cartQuantity + 1; console.log(`Cart Quantity: ${cartQuantity}`);">Add To Cart</button>
+  <button onclick=" cartQuantity = cartQuantity + 2; console.log(`cart Quantity: ${cartQuantity}`);">Add +2</button>
+  <button onclick=" cartQuantity = cartQuantity + 3; console.log(`cart Quantity: ${cartQuantity}`);">Add +3</button>
+  <button onclick=" cartQuantity=0; console.log('Cart was reset');console.log(`Cart Quantity: ${cartQuantity}`);">ResetCart</button>
+  <script>
+   let cartQuantity = 0;
+  </script>
+ </body>
+ </html>
