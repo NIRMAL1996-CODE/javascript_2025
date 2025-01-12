@@ -9,7 +9,6 @@ body{
   background-color: #121112 ;
   color: #FBF5E5;
   scroll-behavior: smooth;
-  /* line-height: 1.6; */
 }
 
 header{
@@ -17,10 +16,6 @@ header{
   text-align: left;
   padding: 10px 0;
 }
-/* section{
-  min-height: 100vh;
-  padding: 50px 20px;
-} */
 
 section {
   position: relative;
@@ -54,7 +49,7 @@ section img {
   font-size: medium;
   line-height: 1.2;
   margin: 20px;
-  /* padding: 20px; */
+  padding: 20px;
   font-size: large;
 
 }
