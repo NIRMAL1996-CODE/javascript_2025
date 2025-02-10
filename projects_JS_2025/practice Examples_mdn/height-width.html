@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Height-Width-Example</title>
+</head>
+<body onload="heightwidth();">
+  <p>Image1: no height, width, or style
+    <img src="https://www.mozilla.org/images/mozilla-banner.gif" alt="image1" id="image1"></p>
+
+  <p>Image2: height="50", width="500", but no style
+    <img src="https://www.mozilla.org/images/mozilla-banner.gif" alt="image2" id="image2" height="=50" width="500"></p>
+
+  <p>Image3: no height, width, but style="height: 50px; width: 500px;"
+    <img src="https://www.mozilla.org/images/mozilla-banner.gif" alt="image3" id="image3"  style="height: 50px; width: 500px;"></p>
+
+  <div id="output"></div>  
+  <script src="height-width.js"></script>
+</body>
+</html>
